@@ -1,15 +1,3 @@
-# Dependencies
 node_modules/
-
-# Environment variables
 .env
-
-# JetBrains IDE
 .idea/
-
-# Logs
-logs/
-*.log
-
-# OS files
-.DS_Store
