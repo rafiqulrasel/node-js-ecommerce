@@ -1,0 +1,9 @@
+{
+  "name_required": "নাম আবশ্যক",
+  "email_required": "ইমেইল আবশ্যক",
+  "invalid_email": "সঠিক ইমেইল দিন",
+  "password_required": "পাসওয়ার্ড আবশ্যক",
+  "password_min": "পাসওয়ার্ড কমপক্ষে {{count}} অক্ষরের হতে হবে",
+  "email_exists": "ইমেইল ইতোমধ্যে ব্যবহার করা হয়েছে",
+  "min_length": "{{field}} কমপক্ষে {{count}} অক্ষরের হতে হবে"
+}

@@ -4,6 +4,8 @@ import helmet from "helmet";
 import compression from "compression";
 import morgan from "morgan";
 import { i18nMiddleware } from "./config/index.js";
+import routes from "./routes/index.js";
+import {errorHandler} from "./middlewares/error.middleware.js";
 
 const app = express();
 
@@ -35,5 +37,8 @@ app.get("/health", (req, res) => {
         message: req.t("common:operation_successful")
     });
 });
+
+app.use("/api", routes);
+app.use(errorHandler);
 
 export default app;
