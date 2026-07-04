@@ -3,6 +3,7 @@ import cors from "cors";
 import helmet from "helmet";
 import compression from "compression";
 import morgan from "morgan";
+import { i18nMiddleware } from "./config/index.js";
 
 const app = express();
 
@@ -24,11 +25,14 @@ app.use(compression());
 // Logger
 app.use(morgan("dev"));
 
+// Backend Translation
+app.use(i18nMiddleware);
+
 // Health Check
 app.get("/health", (req, res) => {
     res.status(200).json({
         success: true,
-        message: "API is running"
+        message: req.t("common:operation_successful")
     });
 });
 

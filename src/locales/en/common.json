@@ -1,0 +1,38 @@
+{
+  "success": "Success",
+  "failed": "Failed",
+
+  "created": "Created successfully",
+  "updated": "Updated successfully",
+  "deleted": "Deleted successfully",
+
+  "fetched": "Data fetched successfully",
+  "saved": "Data saved successfully",
+
+  "not_found": "Data not found",
+  "already_exists": "Data already exists",
+
+  "active": "Activated successfully",
+  "inactive": "Deactivated successfully",
+
+  "enabled": "Enabled successfully",
+  "disabled": "Disabled successfully",
+
+  "verified": "Verified successfully",
+  "unverified": "Verification removed successfully",
+
+  "uploaded": "File uploaded successfully",
+  "removed": "File removed successfully",
+
+  "invalid_request": "Invalid request",
+  "unauthorized": "Unauthorized access",
+  "forbidden": "Permission denied",
+
+  "internal_server_error": "Internal server error",
+
+  "something_went_wrong": "Something went wrong",
+
+  "try_again": "Please try again later",
+
+  "operation_successful": "Operation completed successfully"
+}
